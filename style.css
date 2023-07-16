@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#menusuperior {
+    height: 475px;
+    background: #303030;
+}
+
+#titulomenusuperior {
+    margin-left: 62px;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    padding-top: 206px;
+}
+
+#textomenusuperior {
+    margin-left: 62px;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 28px;
+}
+
+#menuinformacional {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    height: 229px;
+    background: #F9F9F9;
+}
+
+.numeromenuinformacional {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.textomenuinformacional {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left; 
+}
+
+.textmenuinformacional {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline
+}
+
+#secinform {
+    display: grid;
+    grid-auto-flow: column;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+#titulosecinform {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 77px;
+}
+
+#textosecinform {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 77px;
+    margin-top: 60px;
+}
+
+#imgsecinform {
+    width: 600px;
+    height: 700px;
+    padding-top: 100px;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+
+#secform {
+    text-align: center;
+    background-color: #303030;
+    height: 638px;
+    top: 1478px;
+}
+
+#secformulario {
+    font-size: 32px;
+    margin: 25px;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 420px;
+    height: 52px;
+    background-color: white;
+    margin: 15px;
+    border:0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    height: 50px;
+    width: 250px;
+    border:0px;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #c77b1e; 
+    color: #FFFFFF;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #90540a;
+    transition-duration: 0.5s;
+}
